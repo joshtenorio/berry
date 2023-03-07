@@ -65,6 +65,8 @@ static const struct command command_table[] = {
     { "fullscreen_max",         IPCFullscreenMax,           true,  1, fn_bool    },
     { "snap_left",              IPCSnapLeft,                false, 0, NULL       },
     { "snap_right",             IPCSnapRight,               false, 0, NULL       },
+    { "snap_top",               IPCSnapTop,                 false, 0, NULL       },
+    { "snap_bottom",            IPCSnapBottom,              false, 0, NULL       },
     { "cardinal_focus",         IPCCardinalFocus,           false, 1, fn_int     },
     { "toggle_decorations",     IPCWindowToggleDecorations, false, 0, NULL       },
     { "cycle_focus",            IPCCycleFocus,              false, 0, NULL       },

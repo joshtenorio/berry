@@ -32,6 +32,8 @@ enum IPCCommand
     IPCFullscreenMax,
     IPCSnapLeft,
     IPCSnapRight,
+    IPCSnapTop,
+    IPCSnapBottom,
     IPCSaveMonitor,
     IPCCardinalFocus,
     IPCCycleFocus,
